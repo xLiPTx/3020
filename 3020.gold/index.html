@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Short Cuts</title>
+    <link rel="icon" href="icons/shortcut1.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <section>
+      <div class="main">
+        <div class="searchBx">
+          <input type="text" name="" class="query" value="" />
+          <div class="icons">
+            <div>
+              <img src="googlesearch/images/search.png" alt="search" />
+            </div>
+            <div><img src="googlesearch/images/mic.png" alt="search" /></div>
+          </div>
+        </div>
+        <div class="button">
+          <button class="searchBtn">Google Search</button>
+        </div>
+      </div>
+    </section>
+    <script>
+      let query = document.querySelector(".query");
+      let searchBtn = document.querySelector(".searchBtn");
+
+      searchBtn.onclick = function () {
+        let url = "https://www.google.com/search?q=" + query.value;
+        window.open(url);
+      };
+    </script>
+    <main>
+      <div>
+        <ul>
+          <li class="one">
+            <a href="https://mail.google.com/mail/u/5/#inbox" target="_blank">
+              <img src="images/gmail.png" alt="gmail" />
+            </a>
+          </li>
+          <li class="two">
+            <a href="https://www.coursera.org/" target="_blank">
+              <img src="images/coursera.png" alt="coursera-logo" />
+            </a>
+          </li>
+          <li class="three">
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src="images/youtube.png" alt="youtube-logo" />
+            </a>
+          </li>
+          <li class="four">
+            <a
+              href="https://www.udemy.com/home/my-courses/learning/"
+              target="_blank"
+            >
+              <img src="images/udemy.png" alt="udmemy" />
+            </a>
+          </li>
+          <li class="five">
+            <a
+              href="https://docs.google.com/spreadsheets/u/4/d/1Evf_0vGAtmcE3OahFjCdnX59cnfw1fpcdVVkwujWXis/edit#gid=484246840"
+              target="_blank"
+            >
+              <img src="images/sheets.png" alt="monthly-checks" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+        <a href="sc-shop/index.html">
+          <img class="bottom" src="images/appstore.png" alt="appstore" />
+        </a>
+        <a href="https://translate.google.co.uk/">
+          <img class="bottom" src="images/googletranslate.png" alt="calculator" />
+        </a> 
+        <a href="https://www.metoffice.gov.uk/weather/forecast/gcpu1cq7w#?date=2021-12-02">
+          <img class="bottom" src="images/weather.png" alt="weather" />
+        </a>
+        <a href="https://www.expressvpn.com/go/home?gclid=Cj0KCQiA-qGNBhD3ARIsAO_o7ykJbbnbVxS4uTJvg-B9vzgSX2mbiLlpvJWazcuiVf_XXzS-23Z6_pYaArHkEALw_wcB">
+          <img class="bottom" src="images/expressvpn.png" alt="expressvpn" />
+        </a>
+        <a href="league/index.html">
+          <img class="bottom" src="images/ugg1.png" alt="ugg" />
+        </a>
+        <a href="calculator/index.html">
+          <img class="bottom" src="images/calculator icon.png" alt="calculator" />
+        </a>
+    </footer>
+  </body>
+</html>

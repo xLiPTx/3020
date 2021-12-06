@@ -1,0 +1,379 @@
+body {
+  overflow: hidden;
+  background-image: url(images/background1.png);
+
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  font-family: "Archivo Narrow", sans-serif;
+  cursor: pointer;
+}
+
+.leftside,
+.rightside {
+  height: 100vh;
+  width: 100%;
+}
+
+.leftside:hover {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/backgroundleft.png);
+  background-color: rgba(46, 46, 46, 0.01);
+}
+
+.rightside:hover {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/backgroundright.png);
+  background-color: rgba(46, 46, 46, 0.01);
+}
+
+.leftside header {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  padding: 20px;
+}
+
+.rightside header {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  padding: 20px;
+}
+
+.leftside header p {
+  margin: 0 auto;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+  font-size: 40px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1px 70px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.rightside header p {
+  margin: 0 auto;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+  font-size: 40px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1px 70px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.leftside header p:hover {
+  border: 0.2px solid white;
+  background-color: rgba(46, 46, 46, 0.01);
+}
+
+.rightside header p:hover {
+  border: 0.2px solid white;
+  background-color: rgba(46, 46, 46, 0.01);
+}
+
+.leftside main {
+  position: absolute;
+}
+
+.rightside main {
+  position: absolute;
+}
+
+.leftside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rightside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.leftside .amazon img {
+  position: absolute;
+  width: 100px;
+  margin: 125px 0 0 80px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .amazon img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .ebay img {
+  position: absolute;
+  width: 100px;
+  margin: 125px 0 0 270px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .ebay img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .boohooman img {
+  position: absolute;
+  width: 100px;
+  margin: 125px 0 0 460px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .boohooman img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .gumtree img {
+  position: absolute;
+  width: 100px;
+  margin: 310px 0 0 80px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .gumtree img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .stockx img {
+  position: absolute;
+  width: 100px;
+  margin: 310px 0 0 272.5px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .stockx img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .petsathome img {
+  position: absolute;
+  width: 100px;
+  margin: 310px 0 0 462.5px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .petsathome img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .argos img {
+  position: absolute;
+  width: 100px;
+  margin: 500px 0 0 80px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .argos img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .paypal img {
+  position: absolute;
+  width: 100px;
+  margin: 500px 0 0 272.5px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .paypal img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .aliexpress img {
+  position: absolute;
+  width: 100px;
+  margin: 500px 0 0 462.5px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .aliexpress img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.leftside .short {
+  width: 40px;
+  margin: 596px 0 0 0px;
+}
+
+.rightside .ikea img {
+  position: absolute;
+  width: 100px;
+  margin: 125px 0 0 80px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.rightside .ikea img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.rightside .asos img {
+  position: absolute;
+  width: 100px;
+  margin: 125px 0 0 270px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.rightside .asos img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.rightside .takealot img {
+  position: absolute;
+  width: 100px;
+  margin: 125px 0 0 460px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.rightside .takealot img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.rightside .tesco img {
+  position: absolute;
+  width: 100px;
+  margin: 310px 0 0 80px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.rightside .tesco img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.rightside .jd img {
+  position: absolute;
+  width: 100px;
+  margin: 310px 0 0 272.5px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.rightside .jd img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.rightside .sportsdirect img {
+  position: absolute;
+  width: 100px;
+  margin: 310px 0 0 462.5px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.rightside .sportsdirect img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.rightside .mandmdirect img {
+  position: absolute;
+  width: 100px;
+  margin: 500px 0 0 80px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
+
+.rightside .mandmdirect img:hover {
+  position: absolute;
+  width: 125px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 43px 17px #ffffff3d;
+}
